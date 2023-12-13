@@ -1,0 +1,12 @@
+digraph BST {
+    // Node declarations with inner color
+    1 [label=<<b>1</b>>, color="black", fillcolor="aqua", style="filled"];
+    2 [label=<<b>2</b>>, color="black", fillcolor="aqua", style="filled"];
+    3 [label=<<b>3</b>>, color="black", fillcolor="#FF1493", style="filled"];
+    // ... other nodes ...
+
+    // Edge declarations
+    2-> 1 [color="black"];
+    2 -> 3 [color="black"];
+    // ... other edges ...
+}

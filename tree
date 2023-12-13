@@ -1,0 +1,12 @@
+// Binary Tree
+digraph {
+	node_1_None [label=1]
+	node_2_L [label=2]
+	node_1_None -> node_2_L
+	node_4_L [label=4]
+	node_2_L -> node_4_L
+	node_5_R [label=5]
+	node_2_L -> node_5_R
+	node_3_R [label=3]
+	node_1_None -> node_3_R
+}

@@ -1,0 +1,19 @@
+digraph BinaryTree {
+    size="5,3";  
+    ratio=fill;  
+    1 [label=<<b>1</b>>, color="black", fillcolor="aqua", style="filled"];
+    2 [label=<<b>2</b>>, color="black", fillcolor="aqua", style="filled"];
+    3 [label=<<b>3</b>>, color="black", fillcolor="#FF1493", style="filled"];
+    4 [label=<<b>4</b>>, color="black", fillcolor="lavender", style="filled"];
+    5 [label=<<b>5</b>>, color="black", fillcolor="lavender", style="filled"];
+    6 [label=<<b>6</b>>, color="black", fillcolor="lavender", style="filled"];
+    7 [label=<<b>7</b>>, color="black", fillcolor="lavender", style="filled"];
+    4->2;
+    4->6;
+    2->1;
+    2->3;
+    6->5;
+    6->7;
+}
+
+// FF1493

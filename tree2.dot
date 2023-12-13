@@ -1,0 +1,29 @@
+digraph BST {
+    node [shape=circle, style=filled, color=lightblue, fontname=Arial];
+    
+    // Node declarations
+    1 [label="1" fillcolor="skyblue"];
+    2 [label="2" fillcolor="skyblue"];
+    3 [label="3" fillcolor="skyblue"];
+    4 [label="4" fillcolor="skyblue"];
+    5 [label="5" fillcolor="skyblue"];
+    6 [label="6" fillcolor="skyblue"];
+    7 [label="7" fillcolor="skyblue"];
+
+    // Edge declarations
+    1 -> 2;
+    1 -> 3;
+    2 -> 4;
+    2 -> 5;
+    3 -> 6;
+    3 -> 7;
+
+    // Custom labels
+    1 [label=<1<br/><font color="gray">0+1</font>>];
+    2 [label=<2<br/><font color="gray">1+2</font>>];
+    3 [label=<3<br/><font color="gray">3+4</font>>];
+    4 [label=<4<br/><font color="gray">0+4</font>>];
+    5 [label=<5<br/><font color="gray">0+5</font>>];
+    6 [label=<6<br/><font color="gray">0+6</font>>];
+    7 [label=<7<br/><font color="gray">0+7</font>>];
+}
